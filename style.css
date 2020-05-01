@@ -5,6 +5,41 @@ body{
     text-align: center;
 }
 
+hr{
+  margin-left: 0;
+  height: 0.25rem;
+  width: 3rem;
+  background-color: #efa8e4;
+  border-style: none;
+  margin-bottom: 2rem;
+
+
+
+}
+h1{
+  padding: 0 auto 0 auto;
+  font-size:2.5rem;
+  letter-spacing: -0.1rem;
+  margin: 0 auto 0 auto;
+  color: #405286;
+  height: auto;
+}
+h1,h5{
+  font-family: "Vollkorn";
+}
+p{
+  font-family: "Lato";
+  text-align: left;
+  }
+
+.sub-title{
+    font-size:1rem;
+    text-align:center;
+    padding: 0 auto 0.5rem auto;
+    margin: 0 auto 0 auto;
+  
+}
+
 .top-space{
 
   margin: 0 auto 0 auto;
@@ -13,12 +48,12 @@ body{
 }
 
 .img-container{
-  padding-top:5rem;
-  padding-bottom:2rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 .title-img{
   height: 12rem;
-  width:12rem;
+  width: 12rem;
   border-radius: 6rem;
 }
 
@@ -27,7 +62,7 @@ body{
 }
 
 .btn-container{
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
 
@@ -74,8 +109,10 @@ body{
   }
 
   .content-space{
-    padding-top:0.75rem;
+    padding-top:1.5rem;
   }
+
+  
 
   .card{
 
@@ -89,6 +126,7 @@ body{
   
   .card.elem{
     border-radius: 12px;
+    padding: 1rem 2rem 1rem 2rem;
   }
   
   
