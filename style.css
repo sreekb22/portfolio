@@ -12,9 +12,13 @@ hr{
   background-color: #efa8e4;
   border-style: none;
   margin-bottom: 2rem;
+}
 
-
-
+#footer p{
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-size: 1rem;
 }
 h1{
   padding: 0 auto 0 auto;
@@ -82,9 +86,12 @@ p{
   
   
   .top-btn{
-    border-radius: 12px;
+    border-radius: 12px;    
   }
   
+  .top-btn:active{
+    color: red;
+  }
   
 
 /* Grow Shadow */
